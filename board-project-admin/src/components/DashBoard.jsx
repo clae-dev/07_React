@@ -21,7 +21,7 @@ export default function DashBoard() {
     // 브라우저의 기본동작을 이용해서 "새로고침하며 이동" 하는 방식
     // 즉, 전체 페이지 리로드 (React의 SPA 철학 위배!)
     navigate("/");
-  }
+  }     
 
   return (
     <div className='dash-board-container'>
